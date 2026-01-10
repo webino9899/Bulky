@@ -1,4 +1,4 @@
-﻿namespace BulkyWeb.Models
+﻿namespace Bulky.Model
 {
     public class Product
     {
@@ -16,16 +16,7 @@
 
         public string ProductName { get; set; } = string.Empty;
 
-        public Product()
-        {
-            Name = string.Empty;
-            Description = string.Empty;
-            Category = string.Empty;
-            CategoryName = string.Empty;
-            CategoryDescription = string.Empty;
-            ImageUrl = string.Empty;
-            DescriptionUrl = string.Empty;
-        }
+        
 
      
 
