@@ -14,5 +14,16 @@
         public string ImageUrl { get; set; }
         public string DescriptionUrl { get; set; }
 
+        public Product()
+        {
+            Name = string.Empty;
+            Description = string.Empty;
+            Category = string.Empty;
+            CategoryName = string.Empty;
+            CategoryDescription = string.Empty;
+            ImageUrl = string.Empty;
+            DescriptionUrl = string.Empty;
+        }
+
     }
 }
