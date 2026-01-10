@@ -14,6 +14,8 @@
         public string ImageUrl { get; set; }
         public string DescriptionUrl { get; set; }
 
+        public string ProductName { get; set; } = string.Empty;
+
         public Product()
         {
             Name = string.Empty;
@@ -24,6 +26,8 @@
             ImageUrl = string.Empty;
             DescriptionUrl = string.Empty;
         }
+
+     
 
     }
 }
