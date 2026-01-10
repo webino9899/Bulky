@@ -14,6 +14,8 @@
         public string ImageUrl { get; set; }
         public string DescriptionUrl { get; set; }
 
+        public string ProductName { get; set; } = string.Empty;
+
         public Product()
         {
             Name = string.Empty;
@@ -25,10 +27,7 @@
             DescriptionUrl = string.Empty;
         }
 
-        public override string ToString()
-        {
-            return $"Product [Id={Id}, Name={Name}, Description={Description}, Price={Price}, Category={Category}, Stock={Stock}, ImageUrl={ImageUrl}, DescriptionUrl={DescriptionUrl}]";
-        }
+     
 
     }
 }
